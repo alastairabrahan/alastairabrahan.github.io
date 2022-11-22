@@ -1,5 +1,7 @@
 <html>
 <head>
+</head>
+<body onload="startGame()">
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <style>
 canvas {
@@ -7,8 +9,6 @@ canvas {
     background-color: #f1f1f1;
 }
 </style>
-</head>
-<body onload="startGame()">
 <script>
 
 var myGamePiece;
